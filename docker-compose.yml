@@ -1,10 +1,11 @@
 version: '3.3'
 services:
   snake:
-  image: "johncollegeacc769/snake_game_2024"
-  environment: 
-    - "PORT:3000"
-  Ports:
-    - "80:3000"
-  volumes:
-    - ./:/app
+    image: "johncollegeacc769/snake_game_2024"
+    environment: 
+      - "PORT:3000"
+    ports:
+      - "80:3000"
+    volumes:
+      - ./:/app
+
